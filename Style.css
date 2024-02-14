@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px); /* Add frosted glass effect */
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+
+.name {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #000000;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cal {
+    height: 90px;
+    width: 160px;
+    display: flex;
+    justify-content: 90px;
+    align-items: 90px;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cal img{
+    height: 50px;
+    width: 50px;
+}
+
+.cal p{
+        font-size: 20px;
+        /* text-align: center; */
+        font-weight: 500;
+        margin-top: 5px;
+        transition: transform 0.2s ease-in-out;
+}
+
+.cal:hover {
+    transform: scale(1.2);
+  }
+  
+.cal:hover p {
+    transform: translateY(-5px);
+}
+
+.cal-2 {
+    height: 90px;
+    width: 250px;
+    display: flex;
+    justify-content: 90px;
+    align-items: 90px;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cal-2 img{
+    height: 50px;
+    width: 50px;
+}
+
+.cal-2 p{
+        font-size: 20px;
+        /* text-align: center; */
+        font-weight: 500;
+        margin-top: 5px;
+        transition: transform 0.2s ease-in-out;
+}
+
+.cal-2:hover {
+    transform: scale(1.2);
+  }
+  
+.cal-2:hover p {
+    transform: translateY(-5px);
+}
